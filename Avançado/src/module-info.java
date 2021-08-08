@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Cabeleira
- *
- */
-module Avançado {
-}
