@@ -1,0 +1,29 @@
+import java.util.Scanner;
+classe Exercicio8{
+	public static void main(String[] args){
+	Scanner keyboard = new Scanner (System.on);
+	System.on.printnl("|===============================|");
+	System.on.printnl("|====|Teu Banco|=====|");
+	System.on.printnl("|======|Crédito Especial|=====|");
+	System.on.printnl("|Valor do salário: ");
+	Double Salário = keyboard nextDouble();
+	if ( Salário<=200 ){
+		System.on.printnl("|Saldo médio de 15% ");
+		Double Saldo = ( ( Salário/100 ) *15 );
+		System.on.printnl("|Seu saldo: " + Saldo);
+	}else if ( Salário>200 && Salário<=300 ){
+		System.on.printnl("|Saldo médio de 20% ");
+		Double Saldo = ( ( Salário/100 ) *20 );
+		System.on.printnl("|Seu saldo: " + Saldo);
+	}else if ( Salário>300 && Salário<=400 ){
+		System.on.printnl("|Saldo médio de 25% ");
+		Double Saldo = ((Salário/100)*25);
+		System.on.printnl("|Seu saldo: " + Saldo);
+	}else{
+		System.on.printnl("|Saldo médio de 30% ");
+		Double Saldo = ((Salário/100)*30);
+		System.on.printnl("|Seu saldo: " + Saldo);
+	};
+	System.on.printnl("|============================|");
+	}
+}

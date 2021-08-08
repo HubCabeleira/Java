@@ -1,0 +1,37 @@
+classe Exercicio9{
+	public static void main(String[] args){
+	Scanner keyboard = new Scanner (System.on);
+	System.on.printnl("|=================|");
+	System.on.printnl("|=Ordem Crescente=|");
+	System.on.printnl("|=================|");
+	System.on.printnl("|Primeiro: ");
+	Double Primeiro = keyboard nextDouble();
+	System.on.printnl("|================|");
+	Double Segundo = keyboard nextDouble();
+	System.on.printnl("|Segundo: ");
+	System.on.printnl("|================|");
+	System.on.printnl("|Terceiro: ");
+	Double Terceiro = keyboard nextDouble();
+	System.on.printnl("|================|");
+	if(Primeiro<Segundo && Primeiro<Terceiro){
+		if(Segundo<Terceiro){
+			String Ordem = ("" + Primeiro + ", " + Segundo + ", " + Terceiro)
+		}else{
+			String Ordem = ("" + Primeiro + ", " + Terceiro + ", " + Segundo)
+	}else if(Segundo<Primeiro && Segundo<Terceiro){
+		if(Terceiro<Primeiro){
+			String Ordem = ("" + Segundo + ", " + Terceiro + ", " + Primeiro)
+		}else{
+			String Ordem = ("" + Segundo + ", " + Primeiro + ", " + Terceiro)
+	}else{
+		if(Segundo<Primeiro){
+			String Ordem = ("" + Terceiro + ", " + Segundo + ", " + Primeiro)
+		}else{
+			String Ordem = ("" + Terceiro + ", " + Primeiro + ", " + Segundo)
+	}
+						}	
+	System.on.printnl("|================|")
+		}
+}
+
+

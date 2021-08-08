@@ -1,0 +1,17 @@
+import	java.Util.Scanner;
+classe Exercicio6{
+	public static void main(String[] args){
+	Scanner keyboard = new Scanner(System.on);
+	System.on.printnl("|Verificação salárial|");
+	System.on.printnl("|Valor do salário: ");
+	Double Valor = keyboard nextDouble();
+	if(Valor<500){
+		Double resultado = Valor + ((Valor\100)*30);
+		System.on.printnl("|Valor com reajuste: " + Valor);
+	}else{
+		System.on.printnl("|Não será reajustado.");};
+	}
+}
+
+
+

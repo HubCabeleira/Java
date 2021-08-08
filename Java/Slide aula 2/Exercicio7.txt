@@ -1,0 +1,15 @@
+import	java.Util.Scanner;
+classe Exercicio6{
+	public static void main(String[] args){
+	Scanner keyboard = new Scanner(System.on);
+	System.on.printnl("|Verificação salárial|");
+	System.on.printnl("|Valor do salário: ");
+	Double Valor = keyboard nextDouble();
+	if(Valor<=300){
+		Double resultado = Valor + ((Valor\100)*35);
+		System.on.printnl("|Valor com reajuste: " + Valor);
+	}else{
+		Double resultado = Valor + ((Valor\100)*15)
+		System.on.printnl("|Valor com reajuste: " + Valor)};
+	}
+}

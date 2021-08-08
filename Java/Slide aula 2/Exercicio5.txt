@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class Exercicio5{
+	public static void main(String[] args){
+	{	System.out.println("|================|Funções|==============|");	
+		System.out.println("|Insira dois números: ");		}
+	{	Scanner Keyboard = new Scanner(System.in);
+		System.out.println("|Primeiro: ");
+		String Primeiro = Keyboard.next();
+		System.out.println("|Segundo: ");			
+		String Segundo = Keyboard.next();		}
+	{	System.out.println("|==========|Equações|=============|");
+		System.out.println("|Possibilidades: ");
+		System.out.println("|(1) Média entre os dois |");
+		System.out.println("|(2) Diferença entre o > e o < |");
+		System.out.println("|(3) Produto entre os números |");
+		System.out.println("|(4) Divisão do A por B |");		}
+	{	if (escolha == "1"){
+			Float Resultado = (Primeiro+Segundo)/2 ;
+		}	else if (Escolha == "2"){
+		if (Primeiro>Segundo){
+			Float Resultado = (Primeiro-Segundo);}	
+		else{
+			Float Resultado = (Segundo-Primeiro);}		}
+		else if (Escolha == "3"){
+			Float Resultado = (Primeiro*Segundo);}
+		else if (Escolha == "4"){
+			Float Resultado = (Primeiro/Segundo);}	`		
+		else{
+			String Resultado = ("Erro");}			}	
+	{	if (Resultado == "Erro"){
+			System.out.println("Opição inválida");}
+		else{
+			System.out.println("Resultado: " + Resultado);}		}
+
+}
